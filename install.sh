@@ -41,5 +41,5 @@ echo -e "$cyan php5-cgi Installed $red[$green✔$red]$nc"
 echo -e "$cyan http Installed $red[$green✔$red]$nc"
 #EOF
 sleep 2
-chmod +x quasar.sh
+chmod +x delta.sh
 echo -e "$yellow You Can Run Now delta.sh$nc"
