@@ -37,51 +37,48 @@ function update() {
 	sleep 0.025
 	cd packs
 	echo -e "$cyan Updating Credit Card Bin Checker $red[$green✔$red]$nc"
-	curl "https://raw.githubusercontent.com/TunisianEagles/quasar/master/packs/binchecker.py" --output binchecker.py >/dev/null 2>&1
+	curl "https://https://raw.githubusercontent.com/XMTDubzz/Delta-V1/master/packs/binchecker.py" --output binchecker.py >/dev/null 2>&1
 	chmod +x binchecker.py
 	sleep 0.025
 	echo -e "$cyan Updating Email Validator $red[$green✔$red]$nc"
-	curl "https://raw.githubusercontent.com/TunisianEagles/quasar/master/packs/email.sh" --output email.sh >/dev/null 2>&1
+	curl "https://raw.githubusercontent.com/XMTDubzz/Delta-V1/master/packs/email.sh" --output email.sh >/dev/null 2>&1
 	chmod +x email.sh
 	sleep 0.025
 	echo -e "$cyan Updating Phone Number Validator $red[$green✔$red]$nc"
-	curl "https://raw.githubusercontent.com/TunisianEagles/quasar/master/packs/phone.sh" --output phone.sh >/dev/null 2>&1
+	curl "https://raw.githubusercontent.com/XMTDubzz/Delta-V1/master/packs/phone.sh" --output phone.sh >/dev/null 2>&1
 	chmod +x phone.sh 
 	cd ..
 	sleep 0.025
-	echo -e "$cyan Starting The Script $red[$green✔$red]$nc"
+	echo -e "$cyan Starting Delta V1 $red[$green✔$red]$nc"
 	}
 function Banner() {
-echo -e "$blue		 █████   █    ██  ▄▄▄        ██████  ▄▄▄       ██▀███   "
-echo "		▒██▓  ██▒ ██  ▓██▒▒████▄    ▒██    ▒ ▒████▄    ▓██ ▒ ██▒ "
-echo "		▒██▒  ██░▓██  ▒██░▒██  ▀█▄  ░ ▓██▄   ▒██  ▀█▄  ▓██ ░▄█ ▒ "
-echo "		░██  █▀ ░▓▓█  ░██░░██▄▄▄▄██   ▒   ██▒░██▄▄▄▄██ ▒██▀▀█▄   "
-echo "		░▒███▒█▄ ▒▒█████▓  ▓█   ▓██▒▒██████▒▒ ▓█   ▓██▒░██▓ ▒██▒ "
-echo "		░░ ▒▒░ ▒ ░▒▓▒ ▒ ▒  ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░ ▒▒   ▓▒█░░ ▒▓ ░▒▓░ "
-echo "		 ░ ▒░  ░ ░░▒░ ░ ░   ▒   ▒▒ ░░ ░▒  ░ ░  ▒   ▒▒ ░  ░▒ ░ ▒░ "
+echo -e $red       ooooooooo               o888    o8                  ooooo  oooo      oo "  
+echo "             888    88o  ooooooooo8  888  o888oo   ooooooo       888    88     o888  "
+echo "             888    888 888oooooo8   888   888     ooooo888       888  88       888 " 
+echo "             888    888 888          888   888   888    888        88888        888  "
+echo "             o888ooo88     88oooo888 o888o   888o  88ooo88 8o        888        o888o "                                                                   
 echo -e "		   ░   ░  ░░░ ░ ░   ░   ▒   ░  ░  ░    ░   ▒     ░░   ░  $nc"
-echo -e "	$red[$green+$red]$cyan Coded by	 $nc : Belahsan Ouerghi $red[$green+$red]$nc"
-echo -e "	$red[$green+$red]$cyan Contact$nc 	  : www.facebook.com/ouerghi.belahsan $red[$green+$red]$nc"
-echo -e "	$red[$green+$red]$cyan Youtube 	$nc  : www.youtube.com/channel/UCv9HdZbTOo0iBG5X2qaqmqg $red[$green+$red]$nc"
-echo -e "	$red[$green+$red]$cyan Github 	$nc  : www.github.com/TunisianEagles $red[$green+$red]$nc"
+echo -e "	$red[$green+$red]$cyan Coded by	 $nc : XMTDubzz $red[$green+$red]$nc"
+echo -e "	$red[$green+$red]$cyan Youtube 	$nc  : www.youtube.com/c/XMTDubzz $red[$green+$red]$nc"
+echo -e "	$red[$green+$red]$cyan Github 	$nc  : www.github.com/XMTDubzz $red[$green+$red]$nc"
 	}
 
 function back() {
 	read -p "	$(echo -e $red[$green+$red]$nc)$(echo -e $white Do You Wanna Back To Main Menu$nc) $(echo -e $red[$green$y$nc$white/$green$n$red]$nc) : " b
 	if [ $b = y ]; then
-	bash quasar.sh
+	bash delta.sh
 	elif [ $b = Y ]; then
-	bash quasar.sh
+	bash delta.sh
 	elif [ $b = yes ]; then
-	bash quasar.sh
+	bash delta.sh
 	elif [ $b = YES ]; then
-	bash quasar.sh
+	bash delta.sh
 	elif [ $b = YEs ]; then
-	bash quasar.sh
+	bash delta.sh
 	elif [ $b = yES ]; then
-	bash quasar.sh
+	bash delta.sh
 	elif [ $b = YeS ]; then
-	bash quasar.sh
+	bash delta.sh
 	elif [ $b = no ]; then
 	echo
 	echo -e "	$cyan Program Closed .. $nc"
@@ -113,7 +110,7 @@ function back() {
 	fi
 }
 function directback() {
-		bash quasar.sh
+		bash delta.sh
 	}
 function Menu() {
 	echo -e "
@@ -124,7 +121,7 @@ function Menu() {
 	$red[$green$n5$red]$nc$white Ip Locator$nc
 	$red[$green$n6$red]$nc$white Port Scanner$nc
 	$red[$green$n7$red]$nc$white Others$nc
-	$red[$green$n8$red]$nc$white About Quasar$nc
+	$red[$green$n8$red]$nc$white About delta$nc
 	$red[$green$n9$red]$nc$white Exit$nc
 	"
 	}
@@ -399,10 +396,9 @@ fi
 #
 elif [ $ch = 8 ]; then
 echo ""
-echo -e "$green 	Coded By    $nc:$yellow Belahsan Ouerghi$nc"
-echo -e "$green 	My Facebook $nc:$yellow www.facebook.com/ouerghi.belahsan$nc"
-echo -e "$green 	My Github   $nc:$yellow www.github.com/TunisianEagles$nc"
-echo -e "$green 	My Youtube $nc :$yellow www.youtube.com/channel/UCv9HdZbTOo0iBG5X2qaqmqg$nc"
+echo -e "$green 	Coded By    $nc:$yellow XMTDubzz$nc"
+echo -e "$green 	My Github   $nc:$yellow www.github.com/XMTDubzz$nc"
+echo -e "$green 	My Youtube $nc :$yellow www.youtube.com/c/XMTDubzz"
 echo ""
 back
 elif [ $ch = 9 ]; then
