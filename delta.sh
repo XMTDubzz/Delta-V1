@@ -52,12 +52,6 @@ function update() {
 	echo -e "$cyan Starting Delta V1 $red[$green✔$red]$nc"
 	}
 function Banner() {
-echo -e $red       ooooooooo               o888    o8                  ooooo  oooo      oo "  
-echo "             888    88o  ooooooooo8  888  o888oo   ooooooo       888    88     o888  "
-echo "             888    888 888oooooo8   888   888     ooooo888       888  88       888 " 
-echo "             888    888 888          888   888   888    888        88888        888  "
-echo "             o888ooo88     88oooo888 o888o   888o  88ooo88 8o        888        o888o "                                                                   
-echo -e "		   ░   ░  ░░░ ░ ░   ░   ▒   ░  ░  ░    ░   ▒     ░░   ░  $nc"
 echo -e "	$red[$green+$red]$cyan Coded by	 $nc : XMTDubzz $red[$green+$red]$nc"
 echo -e "	$red[$green+$red]$cyan Youtube 	$nc  : www.youtube.com/c/XMTDubzz $red[$green+$red]$nc"
 echo -e "	$red[$green+$red]$cyan Github 	$nc  : www.github.com/XMTDubzz $red[$green+$red]$nc"
